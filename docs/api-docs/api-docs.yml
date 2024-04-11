@@ -502,6 +502,9 @@ components:
         recognizer_name:
           type: string
           description: "Name of recognizer that made the decision"
+        recognizer_identifier:
+          type: string
+          description: "Identifier of the recognizer"
 
     RecognizerResultWithAnaysisExplanation:
       allOf:
