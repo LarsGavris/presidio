@@ -403,12 +403,12 @@ components:
           description: "Whether to include analysis explanation in the response"
         ad_hoc_recognizers:
           type: array
-          description: "list of recognizers to be used in the context of this request only (ad-hoc)."
+          description: "List of recognizers to be used in the context of this request only (ad-hoc)."
           items:
             $ref: "#/components/schemas/PatternRecognizer"
         context:
           type: array
-          description: "list of context words which may help to raise recognized entities confidence"
+          description: "List of context words which may help to raise recognized entities confidence"
           items:
             description: "The context word"
             type: string
@@ -520,9 +520,12 @@ components:
         recognizer:
           type: string
           description: "Name of recognizer that made the decision"
+        regex_flags:
+          type: int
+          description: "Regex flags used in regex matching"
         pattern_name:
           type: string
-          description: "name of pattern (if decision was made by a PatternRecognizer)"
+          description: "Name of pattern (if decision was made by a PatternRecognizer)"
         pattern:
           type: string
           description: "Regex pattern that was applied (if PatternRecognizer)"
