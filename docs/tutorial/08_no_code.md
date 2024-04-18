@@ -9,7 +9,7 @@ Regular expression or deny-list based recognizers can be written in a YAML file,
 
 An example YAML file can be found [here](https://github.com/microsoft/presidio/blob/main/presidio-analyzer/conf/example_recognizers.yaml).
 
-(For more information on the schema, see the `PatternRecognizer` definition on the [API Docs](https://microsoft.github.io/presidio/api-docs/api-docs.html#tag/Analyzer)).
+For more information on the schema, see the `PatternRecognizer` definition on the [API Docs](https://microsoft.github.io/presidio/api-docs/api-docs.html#tag/Analyzer).
 
 Once the YAML file is created, it can be loaded into the `RecognizerRegistry` instance.
 
