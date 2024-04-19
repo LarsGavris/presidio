@@ -138,7 +138,8 @@ git clone git@github.com:microsoft/presidio.git
 Then, build the containers locally.
 
 !!! note "Note"
- Presidio uses [docker-compose](https://docs.docker.com/compose/) to manage the different Presidio containers.
+
+    Presidio uses [docker-compose](https://docs.docker.com/compose/) to manage the different Presidio containers.
 
 From the root folder of the repo:
 
