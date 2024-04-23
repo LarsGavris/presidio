@@ -219,7 +219,7 @@ Additional examples can be found in the [OpenAPI spec](../api-docs/api-docs.html
 ### Reading pattern recognizers from YAML
 
 Recognizers can be loaded from a YAML file, which allows users to add recognition logic without writing code.
-An example YAML file can be found [here](https://github.com/microsoft/presidio/blob/main/presidio-analyzer/conf/example_recognizers.yaml).
+An example YAML file can be found [here](https://github.com/microsoft/presidio/blob/main/presidio-analyzer/presidio_analyzer/conf/example_recognizers.yaml).
 
 Once the YAML file is created, it can be loaded into the `RecognizerRegistry` instance.
 
